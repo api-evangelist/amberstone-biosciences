@@ -1,0 +1,15 @@
+generated: '2026-09-24'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: amberstonebio.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Nov 27 21:39:44 2026 GMT
+  hsts: false
+domains:
+- domain: amberstonebio.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
